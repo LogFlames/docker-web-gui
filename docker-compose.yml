@@ -3,6 +3,7 @@ version: "3"
 services:
   docker-web-gui:
     container_name: docker-web-gui
+    image: docker-web-gui:latest
     build:
       context: .
     ports:
